@@ -17,14 +17,14 @@ func main() {
 	}
 
 	// 멀티플 배열
-	var intMutlpleArray = [2][3]int{
+	var intMultipleArray = [2][3]int{
 		{3, 4, 5},
 		{4, 5, 6},
 	}
 
-	for x := range intMutlpleArray {
-		for y := range intMutlpleArray[x] {
-			fmt.Println(intMutlpleArray[x][y])
+	for x := range intMultipleArray {
+		for y := range intMultipleArray[x] {
+			fmt.Println(intMultipleArray[x][y])
 		}
 	}
 }
